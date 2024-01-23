@@ -1,5 +1,5 @@
 {
-  "name": "blog-notion",
+  "name": "@victoramelinckx/blog-notion",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -10,8 +10,16 @@
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "cli",
+    "npmtool",
+    "notion-blog",
+    "blog-nextjs"
+  ],
+  "author": "Sebastian Aguila and Victor Davila",
   "license": "ISC",
+  "repository": "https://github.com/victoramelinckx/blog-notion",
+  "homepage": "https://github.com/victoramelinckx/blog-notion/#readme",
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
