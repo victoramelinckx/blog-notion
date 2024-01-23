@@ -1,13 +1,16 @@
-import { Command } from "commander";
+const { Command } = require("commander");
+const figlet = require("figlet");
+
 const program = new Command();
 
+console.log(figlet.textSync("Buena Basty"));
+
 program
-  .version("0.1.0")
-  .option("-p, --peppers", "Add peppers")
-  .option("-P, --pineapple", "Add pineapple")
-  .option("-b, --bbq-sauce", "Add BBQ sauce")
-  .option("-c, --cheese [type]", "Add the specified type of cheese", "marble");
-program.parse(process.argv);
+  .version("1.0.0")
+  .description("An example CLI for managing a directory")
+  .option("-l, --ls  [value]", "List directory contents")
+  .option("-m, --mkdir <value>", "Create a directory")
+  .option("-t, --touch <value>", "Create a file")
+  .parse(process.argv);
 
 const options = program.opts();
-if (options.peppers) console.log("You ordered peppers!");

@@ -2,12 +2,9 @@
   "name": "blog-notion",
   "version": "1.0.0",
   "description": "",
-  "bin": {
-    "prueba": "./index.js"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsc -w"
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +13,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "commander": "^11.1.0"
+    "commander": "^11.1.0",
+    "figlet": "^1.7.0"
   }
 }
