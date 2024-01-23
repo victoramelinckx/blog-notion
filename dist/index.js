@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -35,7 +36,7 @@ function listDirContents(filepath) {
             console.table(detailedFiles);
         }
         catch (error) {
-            console.error("Error occurred while reading the directory!", error);
+            console.error("Error occurrrrrrr while reading the directory!", error);
         }
     });
 }
@@ -58,5 +59,8 @@ if (options.mkdir) {
 }
 if (options.touch) {
     createFile(path.resolve(__dirname, options.touch));
+}
+if (!process.argv.slice(2).length) {
+    program.outputHelp();
 }
 //# sourceMappingURL=index.js.map
