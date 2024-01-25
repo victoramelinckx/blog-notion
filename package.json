@@ -1,7 +1,7 @@
 {
   "name": "@victordavilaa/blog-notion",
   "version": "1.0.0",
-  "description": "",
+  "description": "Notion CMS Blog Integration to NextJs projects.",
   "main": "dist/index.js",
   "bin": {
     "dirmanager": "./dist/index.js"
@@ -11,12 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "cli",
-    "npmtool",
     "notion-blog",
     "blog-nextjs"
   ],
-  "author": "Sebastian Aguila and Victor Davila",
+  "author": {
+    "name": "Sebastian Aguila and Victor Davila",
+    "url": "https://www.hyperionsaas.com/"
+  },
   "license": "ISC",
   "repository": "https://github.com/victoramelinckx/blog-notion",
   "homepage": "https://github.com/victoramelinckx/blog-notion/#readme",
