@@ -1,10 +1,10 @@
 {
   "name": "@victordavilaa/blog-notion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Notion CMS Blog Integration to NextJs projects.",
   "main": "dist/index.js",
   "bin": {
-    "dirmanager": "./dist/index.js"
+    "dirmanager": "dist/index.js"
   },
   "scripts": {
     "build": "npx tsc",
@@ -19,7 +19,10 @@
     "url": "https://www.hyperionsaas.com/"
   },
   "license": "ISC",
-  "repository": "https://github.com/victoramelinckx/blog-notion",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoramelinckx/blog-notion.git"
+  },
   "homepage": "https://github.com/victoramelinckx/blog-notion/#readme",
   "devDependencies": {
     "ts-node": "^10.9.2",
